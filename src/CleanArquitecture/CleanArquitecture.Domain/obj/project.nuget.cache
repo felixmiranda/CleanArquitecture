@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TktHshcN0EtEFcrxIfcGZ0kbtJkEVoyj8aXsXliLZ4xdqRoLZbMb0ukd4VcPVkjyW+8ykPljxMvl/kPOiqR/Pw==",
+  "dgSpecHash": "znuApt/15WtLl/xYpXYfB7FjN/Q61OczOLYhbgG8pb1/qJMu7OdZNMWbvUmLwp4E+mOamsL9cnA7OvrOF6qyCw==",
   "success": true,
   "projectFilePath": "C:\\Proyectos\\CleanArquitecture\\src\\CleanArquitecture\\CleanArquitecture.Domain\\CleanArquitecture.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Felix Miranda\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
