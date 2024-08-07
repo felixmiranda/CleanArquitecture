@@ -9,3 +9,5 @@ C:\Proyectos\CleanArquitecture\src\CleanArquitecture\CleanArquitecture.Domain\ob
 C:\Proyectos\CleanArquitecture\src\CleanArquitecture\CleanArquitecture.Domain\obj\Debug\net8.0\refint\CleanArquitecture.Domain.dll
 C:\Proyectos\CleanArquitecture\src\CleanArquitecture\CleanArquitecture.Domain\obj\Debug\net8.0\CleanArquitecture.Domain.pdb
 C:\Proyectos\CleanArquitecture\src\CleanArquitecture\CleanArquitecture.Domain\obj\Debug\net8.0\ref\CleanArquitecture.Domain.dll
+C:\Proyectos\CleanArquitecture\src\CleanArquitecture\CleanArquitecture.Domain\obj\Debug\net8.0\CleanArquitecture.Domain.csproj.AssemblyReference.cache
+C:\Proyectos\CleanArquitecture\src\CleanArquitecture\CleanArquitecture.Domain\obj\Debug\net8.0\CleanArquitecture.Domain.sourcelink.json

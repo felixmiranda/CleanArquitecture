@@ -5,7 +5,8 @@ public record TipoMoneda
     public static readonly TipoMoneda None = new("");
     public static readonly TipoMoneda Usd = new("USD");
     public static readonly TipoMoneda Eur = new("EUR");
-    public TipoMoneda(string? codigo)
+
+    private TipoMoneda(string? codigo)
     {
         Codigo = codigo;
     }
