@@ -115,4 +115,20 @@ public sealed class Alquiler : Entity
 
         return Result.Success();
     }
+    public Result Completar(DateTime utcNow)
+    {
+        if (Status != AlquilerStatus.Confirmado)
+        {
+            return Result.Failure(AlquilerErrors.NotConfirmado);
+        }
+
+        Status = AlquilerStatus.Completado;
+        FechaCompletado = utcNow;
+
+        RaiseDomainEvent(new AlquilerCompletadoDomainEvent(Id));
+
+
+        return Result.Success();
+    }
+
 }
