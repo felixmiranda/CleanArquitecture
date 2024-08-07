@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography;
-
-namespace CleanArquitecture.Domain;
+﻿namespace CleanArquitecture.Domain;
 
 public class PrecioService
 {

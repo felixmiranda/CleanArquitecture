@@ -1,7 +1,4 @@
-﻿
-using System.Xml.XPath;
-
-namespace CleanArquitecture.Domain;
+﻿namespace CleanArquitecture.Domain;
 
 public sealed class Alquiler : Entity
 {
