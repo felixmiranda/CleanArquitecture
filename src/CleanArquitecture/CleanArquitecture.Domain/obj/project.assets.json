@@ -44,11 +44,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\CleanArquitecture\\src\\CleanArquitecture\\CleanArquitecture.Domain\\CleanArquitecture.Domain.csproj",
+      "projectUniqueName": "C:\\Proyectos\\CleanArchitecture\\src\\CleanArquitecture\\CleanArquitecture.Domain\\CleanArquitecture.Domain.csproj",
       "projectName": "CleanArquitecture.Domain",
-      "projectPath": "C:\\Proyectos\\CleanArquitecture\\src\\CleanArquitecture\\CleanArquitecture.Domain\\CleanArquitecture.Domain.csproj",
+      "projectPath": "C:\\Proyectos\\CleanArchitecture\\src\\CleanArquitecture\\CleanArquitecture.Domain\\CleanArquitecture.Domain.csproj",
       "packagesPath": "C:\\Users\\Felix Miranda\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos\\CleanArquitecture\\src\\CleanArquitecture\\CleanArquitecture.Domain\\obj\\",
+      "outputPath": "C:\\Proyectos\\CleanArchitecture\\src\\CleanArquitecture\\CleanArquitecture.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Felix Miranda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,11 +71,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
