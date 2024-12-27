@@ -5,23 +5,25 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F50CD7A-B3C2-46A4-BD03-8D966B42F6AF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArquitecture", "CleanArquitecture", "{D62E8D5A-F81D-4FB0-96FD-8F3278D8FED5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture", "CleanArchitecture", "{D62E8D5A-F81D-4FB0-96FD-8F3278D8FED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArquitecture.Domain", "src\CleanArquitecture\CleanArquitecture.Domain\CleanArquitecture.Domain.csproj", "{95BB4465-775B-43ED-8BFC-425FC77FD4A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Domain", "src\CleanArchitecture\CleanArchitecture.Domain\CleanArchitecture.Domain.csproj", "{95BB4465-775B-43ED-8BFC-425FC77FD4A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{4AB968FA-8668-4985-9873-CADFAFBC1626}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{95BB4465-775B-43ED-8BFC-425FC77FD4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{95BB4465-775B-43ED-8BFC-425FC77FD4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95BB4465-775B-43ED-8BFC-425FC77FD4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95BB4465-775B-43ED-8BFC-425FC77FD4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D62E8D5A-F81D-4FB0-96FD-8F3278D8FED5} = {4F50CD7A-B3C2-46A4-BD03-8D966B42F6AF}

@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace CleanArquitecture.Domain;
+namespace CleanArchitecture.Domain;
 
 public interface IDomainEvents : INotification
 {

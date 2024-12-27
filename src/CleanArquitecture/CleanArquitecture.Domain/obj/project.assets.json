@@ -39,19 +39,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Felix Miranda\\.nuget\\packages\\": {}
+    "C:\\Users\\Felix Miranda\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\CleanArchitecture\\src\\CleanArquitecture\\CleanArquitecture.Domain\\CleanArquitecture.Domain.csproj",
-      "projectName": "CleanArquitecture.Domain",
-      "projectPath": "C:\\Proyectos\\CleanArchitecture\\src\\CleanArquitecture\\CleanArquitecture.Domain\\CleanArquitecture.Domain.csproj",
+      "projectUniqueName": "C:\\Proyectos\\CleanArchitecture\\src\\CleanArquitecture\\CleanArquitecture.Domain\\CleanArchitecture.Domain.csproj",
+      "projectName": "CleanArchitecture.Domain",
+      "projectPath": "C:\\Proyectos\\CleanArchitecture\\src\\CleanArquitecture\\CleanArquitecture.Domain\\CleanArchitecture.Domain.csproj",
       "packagesPath": "C:\\Users\\Felix Miranda\\.nuget\\packages\\",
       "outputPath": "C:\\Proyectos\\CleanArchitecture\\src\\CleanArquitecture\\CleanArquitecture.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Felix Miranda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -59,6 +64,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -71,6 +77,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

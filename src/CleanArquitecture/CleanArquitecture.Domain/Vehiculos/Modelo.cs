@@ -1,3 +1,3 @@
-﻿namespace CleanArquitecture.Domain;
+﻿namespace CleanArchitecture.Domain;
 
 public record Modelo(string Value);

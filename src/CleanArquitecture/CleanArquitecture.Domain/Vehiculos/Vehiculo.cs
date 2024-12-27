@@ -1,4 +1,4 @@
-﻿namespace CleanArquitecture.Domain;
+﻿namespace CleanArchitecture.Domain;
 
 public sealed class Vehiculo : Entity
 {

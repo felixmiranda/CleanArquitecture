@@ -1,5 +1,5 @@
 ﻿
-namespace CleanArquitecture.Domain;
+namespace CleanArchitecture.Domain;
 
 public sealed class User : Entity
 {
