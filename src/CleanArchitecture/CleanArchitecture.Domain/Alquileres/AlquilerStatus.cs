@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Domain;
+﻿namespace CleanArchitecture.Domain.Alquileres;
 
 public enum AlquilerStatus
 {

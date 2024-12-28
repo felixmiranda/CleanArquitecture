@@ -1,4 +1,6 @@
-﻿namespace CleanArchitecture.Domain;
+﻿using CleanArchitecture.Domain.Abstractions;
+
+namespace CleanArchitecture.Domain.Alquileres;
 
 public static class AlquilerErrors
 {

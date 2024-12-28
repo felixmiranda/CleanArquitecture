@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Domain;
+﻿namespace CleanArchitecture.Domain.Vehiculos;
 
 public interface IVehiculoRepository
 {

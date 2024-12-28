@@ -1,3 +1,5 @@
+using CleanArchitecture.Domain.Abstractions;
+
 namespace CleanArchitecture.Domain.Reviews;
 
 public sealed record Rating

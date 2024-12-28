@@ -1,3 +1,3 @@
-﻿namespace CleanArchitecture.Domain;
+﻿namespace CleanArchitecture.Domain.Users;
 
 public record Email(string Value);

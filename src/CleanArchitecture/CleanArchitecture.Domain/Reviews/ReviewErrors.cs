@@ -1,4 +1,5 @@
 using System;
+using CleanArchitecture.Domain.Abstractions;
 
 namespace CleanArchitecture.Domain.Reviews;
 

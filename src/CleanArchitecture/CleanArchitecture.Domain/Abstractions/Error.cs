@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Domain;
+﻿namespace CleanArchitecture.Domain.Abstractions;
 
 public record Error(string Code, string Name)
 {

@@ -1,5 +1,7 @@
-﻿namespace CleanArchitecture.Domain;
+﻿using CleanArchitecture.Domain.Abstractions;
+using CleanArchitecture.Domain.Shared;
 
+namespace CleanArchitecture.Domain.Vehiculos;
 public sealed class Vehiculo : Entity
 {
     public Vehiculo(

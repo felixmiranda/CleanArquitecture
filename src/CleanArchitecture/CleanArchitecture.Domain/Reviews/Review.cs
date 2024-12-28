@@ -1,4 +1,6 @@
 using System;
+using CleanArchitecture.Domain.Abstractions;
+using CleanArchitecture.Domain.Alquileres;
 using CleanArchitecture.Domain.Reviews.Events;
 
 namespace CleanArchitecture.Domain.Reviews;

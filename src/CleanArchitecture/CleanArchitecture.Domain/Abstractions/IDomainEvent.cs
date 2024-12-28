@@ -1,6 +1,8 @@
-﻿namespace CleanArchitecture.Domain;
+﻿using MediatR;
 
-public interface IDomainEvent
+namespace CleanArchitecture.Domain.Abstractions;
+
+public interface IDomainEvent : INotification
 {
 
 }
