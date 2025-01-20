@@ -1,3 +1,4 @@
+using CleanArchitecture.Application.Exceptions;
 using CleanArchitecture.Domain.Abstractions;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -22,10 +23,18 @@ public sealed class ApplicationDbContext : DbContext, IUnitOfWork
         CancellationToken cancellationToken = default
     )
     {
-        var result = await base.SaveChangesAsync(cancellationToken);
+        try
+        {
+            var result = await base.SaveChangesAsync(cancellationToken);
 
-        await PublishDomainEventAsync();
-        return result;
+            await PublishDomainEventAsync();
+            return result;
+
+        }
+        catch (DbUpdateConcurrencyException ex)
+        {
+            throw new ConcurrencyException("La excepcion por concurrencia se disparo", ex);
+        }
     }
 
     private async Task PublishDomainEventAsync()
