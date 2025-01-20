@@ -1,4 +1,5 @@
 using System;
+using CleanArchitecture.Domain.Users;
 
 namespace CleanArchitecture.Infrastructure.Repositories;
 
