@@ -1,6 +1,6 @@
 using CleanArchitecture.Application.Abstractions.Clock;
 using CleanArchitecture.Application.Abstractions.Messaging;
-
+using CleanArchitecture.Application.Exceptions;
 using CleanArchitecture.Domain.Abstractions;
 using CleanArchitecture.Domain.Alquileres;
 using CleanArchitecture.Domain.Users;
@@ -53,20 +53,27 @@ internal sealed class ReservarAlquilerCommandHandler : ICommandHandler<ReservarA
         {
             return Result.Failure<Guid>(AlquilerErrors.Overlap);
         }
+        try
+        {
+            var alquiler = Alquiler.Reservar(
+                vehiculo,
+                user.Id,
+                duracion,
+                _dateTimeProvider.currentTime,
+                _precioService
+            );
 
-        var alquiler = Alquiler.Reservar(
-            vehiculo,
-            user.Id,
-            duracion,
-            _dateTimeProvider.currentTime,
-            _precioService
-        );
+            _alquilerRepository.Add(alquiler);
 
-        _alquilerRepository.Add(alquiler);
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
 
-        await _unitOfWork.SaveChangesAsync(cancellationToken);
+            return alquiler.Id;
 
-        return alquiler.Id;
+        }
+        catch (ConcurrencyException)
+        {
+            return Result.Failure<Guid>(AlquilerErrors.Overlap);
+        }
 
     }
 }
